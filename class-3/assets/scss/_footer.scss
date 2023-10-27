@@ -1,0 +1,26 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    @media(max-width:1000px){
+     padding: 20px 10px;
+    }
+    padding: 50px;
+    flex-wrap: wrap;
+    background-color: rgba(72, 69, 67, 1);
+    align-items: center;
+    color: $wcolor;
+    .icons{
+        @media(max-width:1000px){
+            margin: 0 auto;
+            margin-top: 20px;
+           }
+        ul{
+            display: flex;
+            gap: 10px;
+            a{
+                color: $wcolor;
+                padding: 10px;
+            }
+        }
+    }
+}
